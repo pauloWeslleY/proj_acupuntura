@@ -1,0 +1,40 @@
+//NavBar
+
+#nav-menu a {
+  color: $cor3-roxo;
+  background: none;
+}
+
+#navigation {
+  background-color: $cor1-rosa !important;
+}
+
+#navigation .navbar-toggler {
+
+  font-size: 12px;
+  padding: 8px 10px;
+  color: white;
+
+}
+
+#navigation {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        &:hover {
+          color: $cor3-roxo;
+        }
+      }
+    }
+  }
+}
+
+#navigation {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        transition: color .3s linear;
+      }
+    }
+  }
+}

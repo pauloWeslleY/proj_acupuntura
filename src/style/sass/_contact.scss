@@ -1,0 +1,14 @@
+//Contact
+
+.bg-parallax-1{
+    background-image: linear-gradient(to top,rgba(178, 65, 93, .3), transparent),
+    url(../../../assets/img/bg-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    color: $cor-preto;
+}
+
+.bg-contatos {
+    background: none;
+}

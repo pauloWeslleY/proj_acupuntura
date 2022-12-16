@@ -1,0 +1,151 @@
+$enable-responsive-font-sizes: true !important;
+
+//importa o Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+//Components
+@import "variaveis.scss";
+@import "portfolio.scss";
+@import "footer.scss";
+@import "navbar.scss";
+@import "contact.scss";
+@import "depoimentos.scss";
+@import "acupuntura.scss";
+
+
+//Style Site
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection {
+    background: $cor-cinza-claro;
+}
+
+.firstP::first-letter {
+    float: left;
+    font-size: 3em;
+    line-height: 1;
+    margin-right: .1em;
+}
+
+#tituloSite h1 {
+    font-size: 40px;
+}
+
+hr:not(.hr_featurette) {
+    border-width: 3px;
+    border-color: $cor2-rosaMedio;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+.hr_featurette {
+    max-width: 1000px;
+    border-width: 3px;
+    border-color: $cor-cinza-claro;
+}
+
+.fab.fa-pagelines {
+    color: $cor2-rosaMedio;
+}
+
+.scrollspySite {
+    position: relative;
+    overflow: auto;
+    height: 300px;
+}
+
+.bg-titulo {
+    background: $cor1-rosa;
+}
+
+.shadow1:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+//Style CARDS
+
+.cardTexto a {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+// Button Styles
+.btn-font {
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-color: $cor2-rosaMedio;
+    color: $cor2-rosaMedio;
+    border-radius: 30px;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: darken($cor1-rosa, 7.5%) !important;
+        border-color: darken($cor1-rosa, 7.5%) !important;
+        color: white;
+        transition: all .50s ease-in-out;
+        -moz-transition: all .50s ease-in-out;
+        -webkit-transition: all .50s ease-in-out;
+    }
+
+    &:active,
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(196, 195, 193, 0.5) !important;
+    }
+}
+
+.btn-rosaMedio {
+    border: 1px solid $cor2-cinza;
+    background-color: transparent;
+    position: relative;
+    color: $cor2-cinza;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.btn-rosaMedio:hover {
+    color: $cor-branco;
+    background: $cor2-rosaMedio;
+    border-color: $cor2-rosaMedio;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+//Naturologia
+
+.bg-image-full {
+    background: no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+//effect
+
+.textShadow {
+    text-shadow: 3px 3px 2px $cor-cinza;
+}
+
+.toSeparate {
+    letter-spacing: 1.5;
+}

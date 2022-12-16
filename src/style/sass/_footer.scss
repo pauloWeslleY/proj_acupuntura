@@ -1,0 +1,22 @@
+//Style Footer
+
+#rodape {
+    background-color: $cor-branco;
+}
+
+#footer-site {
+    color: $cor-branco;
+}
+
+footer {
+    display: block;
+    background-color: $cor3-roxo;
+    width: 100%;
+}
+
+// Section Footer
+@media (max-width: 1200px) {
+    .socialTitle {
+        margin-top: 13px;
+    }
+}

@@ -1,0 +1,63 @@
+@import "variaveis.scss";
+
+//Style Depoiment
+
+.portfolio-item {
+  margin-bottom: 10px;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(../../../assets/img/page_dep/bg-depoiment1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 2px $cor-cinza;
+}
+
+#heart {
+  color: $cor-vermelho;
+}
+
+// #navigation .nav-pills .nav-item .nav-link {
+//   background: none;
+// }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: $cor-cinza-claro;
+}
+
+#v-pills-tab a {
+  color: $cor3-roxo;
+}
+
+.tittleDep {
+  background-color: $cor-cinza-claro;
+  color: $cor2-cinza;
+}
+
+.bg-parallax1 {
+  background-image: url(../../../assets/img/page_dep/bg-depoiment2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: $cor-branco;
+}
+
+.bg-parallax2 {
+  background-image: url(../../../assets/img/page_dep/bg-depoiment3.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  color: $cor-branco;
+}
